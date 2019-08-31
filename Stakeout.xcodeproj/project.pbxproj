@@ -50,6 +50,7 @@
 		4A7A0B898F590A14BFFE58C8 /* Pods_Stakeout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stakeout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABA1A6BA6CE739A76EB58AE /* Pods-Stakeout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.release.xcconfig"; sourceTree = "<group>"; };
 		A31EE49420A4B85600AAA4DA /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		A340453F227443C500650E54 /* Stakeout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stakeout.entitlements; sourceTree = "<group>"; };
 		B887502858A0DCC239E2BFCC /* Pods_StakeoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StakeoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FF1018916F3C119A623AFF /* Pods-StakeoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA6236F9508BFDBEE9017E08 /* Pods-Stakeout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 		F58F48B320754F9800D837E3 /* Stakeout */ = {
 			isa = PBXGroup;
 			children = (
+				A340453F227443C500650E54 /* Stakeout.entitlements */,
 				F58F49412075503200D837E3 /* Business Logic */,
 				F58F493E2075503200D837E3 /* Helpers */,
 				F58F49462075503200D837E3 /* Models */,
@@ -304,6 +306,9 @@
 						CreatedOnToolsVersion = 9.3;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -615,6 +620,7 @@
 			baseConfigurationReference = EA6236F9508BFDBEE9017E08 /* Pods-Stakeout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stakeout/Stakeout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7F3D3W6BZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
@@ -623,7 +629,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -635,6 +641,7 @@
 			baseConfigurationReference = 7ABA1A6BA6CE739A76EB58AE /* Pods-Stakeout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stakeout/Stakeout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7F3D3W6BZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
@@ -643,7 +650,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

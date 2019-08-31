@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		
-		TWTRTwitter.sharedInstance().start(withConsumerKey: StakeoutKeys().twitterConsumerKey,
+		Twitter.sharedInstance().start(withConsumerKey: StakeoutKeys().twitterConsumerKey,
 									   consumerSecret: StakeoutKeys().twitterConsumerSecret)
 		
 		MSAppCenter.start(StakeoutKeys().appCenterAppSecret, withServices: [MSAnalytics.self, MSCrashes.self])
@@ -30,10 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		return true
 	}
-    
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-       return TWTRTwitter.sharedInstance().application(app, open: url, options: options)
-    }
 	
 	func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
 		let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }

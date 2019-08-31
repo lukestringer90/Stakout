@@ -5,15 +5,17 @@ target 'Stakeout' do
 #  pod 'TwitterCore', '<3.1.0' # probably 3.0.3
 
   pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git', :tag => '2.1.0'
-  
   pod 'AppCenter'
+  pod 'AzureNotificationHubs-iOS'
 
   plugin 'cocoapods-keys', {
   :project => "Stakeout",
   :keys => [
     "TwitterConsumerKey",
     "TwitterConsumerSecret",
-	"AppCenterAppSecret"
+	"AppCenterAppSecret",
+	"AzureHubName_Sandbox",
+	"AzureHubListenAccess_Sandbox"
 	
   ]}
 

@@ -7,6 +7,7 @@ PODS:
   - AppCenter/Core (1.5.0)
   - AppCenter/Crashes (1.5.0):
     - AppCenter/Core
+  - AzureNotificationHubs-iOS (2.0.3)
   - Keys (1.0.0)
   - Swifter (2.1.0)
   - TwitterCore (3.2.0)
@@ -15,6 +16,7 @@ PODS:
 
 DEPENDENCIES:
   - AppCenter
+  - AzureNotificationHubs-iOS
   - Keys (from `Pods/CocoaPodsKeys`)
   - Swifter (from `https://github.com/mattdonnelly/Swifter.git`, tag `2.1.0`)
   - TwitterKit (= 3.4.2)
@@ -22,6 +24,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AppCenter
+    - AzureNotificationHubs-iOS
   trunk:
     - TwitterCore
     - TwitterKit
@@ -40,11 +43,12 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AppCenter: 42c293f0de27e173aacd600a55a49da5317cd40e
+  AzureNotificationHubs-iOS: 311d19db7e82e04d2a1d9716b368625a074ee737
   Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
   Swifter: bbf4ebde56c9f8c13e6c7270bf6841a5f29dfda3
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: af862e1f98c7220dc7eb688fe17f1d719fb0a0a5
+PODFILE CHECKSUM: 1cb31acb3bf1b8f08fd29617f612ddf39ce28117
 
 COCOAPODS: 1.8.4
