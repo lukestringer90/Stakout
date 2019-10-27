@@ -26,4 +26,13 @@ end
 post_install do | installer |
     require 'fileutils'
     FileUtils.cp_r('Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout-acknowledgements.plist', 'Stakeout/Other/Settings.bundle/Code-Acknowledgements.plist', :remove_destination => true)
+    
+    installer.aggregate_targets.each do |aggregate_target|
+      aggregate_target.xcconfigs.each do |config_name, config_file|
+        config_file.other_linker_flags[:frameworks].delete("TwitterCore")
+
+        xcconfig_path = aggregate_target.xcconfig_path(config_name)
+        config_file.save_as(xcconfig_path)
+      end
+    end
 end
