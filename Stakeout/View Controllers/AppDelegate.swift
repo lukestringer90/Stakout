@@ -26,7 +26,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		MSAppCenter.start(StakeoutKeys().appCenterAppSecret, withServices: [MSAnalytics.self, MSCrashes.self])
 		
-		registerForPushNotifications()
+        // Only need notification if we are using location background updates
+        if Constants.enableBackgroundLocationUpdates {
+            registerForPushNotifications()
+        }
 		
 		return true
 	}

@@ -12,6 +12,9 @@ import Swifter
 struct Constants {
 	
 	static let tweetsPerRequest = 10
+    
+    /// Enable / disable checking for new tweets when location updates change. This goes against the guidelines as you should only use background location updates for apps that actually need location. Here we are using it to check for new matching tweets, which is naughty.
+    static let enableBackgroundLocationUpdates = false
 	
 	struct Twitter {
 		

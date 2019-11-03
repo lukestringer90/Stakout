@@ -90,9 +90,11 @@ fileprivate extension TimelineViewController {
 			return
 		}
 		
-		
-		locationManager = BackgroundLocationManager(callback: locationUpdated)
-		setupTimeline(with: selectedList)
+        if Constants.enableBackgroundLocationUpdates {
+            locationManager = BackgroundLocationManager(callback: locationUpdated)
+        }
+        
+        setupTimeline(with: selectedList)
 	}
 	
 	func setupTimeline(with list: List) {
