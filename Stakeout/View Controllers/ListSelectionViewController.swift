@@ -12,12 +12,20 @@ import Swifter
 class ListSelectionViewController: UITableViewController {
     
     var selectedListStore: SelectedListStore? = SelectedListStore.shared
+    var isSelectingInitialList = false
     
     var lists: [List]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         getLists(for: Constants.Twitter.lukestringer90)
+        
+        if isSelectingInitialList {
+            navigationItem.leftBarButtonItem = nil
+            if #available(iOS 13.0, *) {
+                isModalInPresentation = true
+            }
+        }
     }
 }
 
@@ -80,6 +88,10 @@ extension ListSelectionViewController {
         }
         
         tableView.reloadRows(at: [indexPath], with: .automatic)
+        
+        if isSelectingInitialList {
+            dismiss(animated: true, completion: nil)
+        }
     }
     
 }

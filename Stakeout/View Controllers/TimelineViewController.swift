@@ -116,10 +116,13 @@ fileprivate extension TimelineViewController {
 
 // MARK: - Segues
 extension TimelineViewController {
+    
 	func showListSelection() {
-		guard let listSelection = storyboard?.instantiateViewController(withIdentifier: "ListSelection") else {
+		guard let listSelection = storyboard?.instantiateViewController(withIdentifier: "ListSelection") as? ListSelectionViewController else {
 			fatalError("Cannot instantiate list selection view controller")
 		}
+        listSelection.isSelectingInitialList = true
+        
 		listSelectionNavController = UINavigationController(rootViewController: listSelection)
 		let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(listSelectionDone))
 		listSelection.navigationItem.leftBarButtonItem = doneButton
