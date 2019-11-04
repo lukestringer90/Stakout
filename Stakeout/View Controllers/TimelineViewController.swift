@@ -43,14 +43,38 @@ class TimelineViewController: TWTRTimelineViewController {
 			login()
 			return
 		}
+        
+        setupTweetInterfaceStyle()
 		
 		Swifter.setup(from: session)
 		start()
-		
-		TWTRTweetView.appearance().showActionButtons = false
 	}
 }
 
+
+// MARK: = UI Style
+extension TimelineViewController {
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        setupTweetInterfaceStyle()
+    }
+    
+    fileprivate func setupTweetInterfaceStyle() {
+        TWTRTweetView.appearance().showActionButtons = false
+        
+        if #available(iOS 12.0, *) {
+            switch traitCollection.userInterfaceStyle {
+            case .dark: TWTRTweetView.appearance().theme = .dark;
+            default: TWTRTweetView.appearance().theme = .light;
+            }
+            
+            // Required to get the table view cells to reload with the new UI style
+            for subView in view.subviews {
+                subView.removeFromSuperview()
+                view.addSubview(subView)
+            }
+        }
+    }
+}
 
 // MARK: - Storage Observance
 extension TimelineViewController: KeywordStoreObserver {
