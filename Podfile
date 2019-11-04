@@ -7,6 +7,15 @@ target 'Stakeout' do
   pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git', :tag => '2.1.0'
   
   pod 'AppCenter'
+  
+  project 'Stakeout', {
+      'Local Debug' => :debug,
+      'Local Release' => :debug,
+      'Beta Debug' => :debug,
+      'Beta Release' => :debug,
+      'App Store Debug' => :release,
+      'App Store Release' => :release
+  }
 
   plugin 'cocoapods-keys', {
   :project => "Stakeout",

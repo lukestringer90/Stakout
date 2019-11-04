@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,14 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A5E2B9816A866CA5C0CAC7 /* Pods-StakeoutTests.local debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.local debug.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.local debug.xcconfig"; sourceTree = "<group>"; };
+		02488AB8970F33902C5BB676 /* Pods-Stakeout.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.beta release.xcconfig"; sourceTree = "<group>"; };
 		4A31AF23CCC7D564D95B8254 /* Pods-StakeoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A7A0B898F590A14BFFE58C8 /* Pods_Stakeout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stakeout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD11AAD835450E91EE0848 /* Pods-Stakeout.local debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.local debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.local debug.xcconfig"; sourceTree = "<group>"; };
 		7ABA1A6BA6CE739A76EB58AE /* Pods-Stakeout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.release.xcconfig"; sourceTree = "<group>"; };
+		82EC4A1B07A715B66826B47E /* Pods-Stakeout.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.beta debug.xcconfig"; sourceTree = "<group>"; };
+		9B84F61F48E884D4ABE82074 /* Pods-Stakeout.local release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.local release.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.local release.xcconfig"; sourceTree = "<group>"; };
 		A31EE49420A4B85600AAA4DA /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		A5045DB9FDC00E259FA319ED /* Pods-StakeoutTests.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.beta debug.xcconfig"; sourceTree = "<group>"; };
+		AA7005F22B7E01638D04B124 /* Pods-StakeoutTests.app store debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.app store debug.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.app store debug.xcconfig"; sourceTree = "<group>"; };
 		B887502858A0DCC239E2BFCC /* Pods_StakeoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StakeoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FB87B7190CF0724735B455 /* Pods-Stakeout.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.app store release.xcconfig"; sourceTree = "<group>"; };
+		BB9CC841D5C145784480EC17 /* Pods-Stakeout.app store debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.app store debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.app store debug.xcconfig"; sourceTree = "<group>"; };
+		D0E40873EA74855B4C1BC3D0 /* Pods-StakeoutTests.local release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.local release.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.local release.xcconfig"; sourceTree = "<group>"; };
+		E0A147E6CA148F483F0CFC28 /* Pods-StakeoutTests.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.beta release.xcconfig"; sourceTree = "<group>"; };
 		E8FF1018916F3C119A623AFF /* Pods-StakeoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA6236F9508BFDBEE9017E08 /* Pods-Stakeout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stakeout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stakeout/Pods-Stakeout.debug.xcconfig"; sourceTree = "<group>"; };
-		F58F48B120754F9800D837E3 /* Stakeout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stakeout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58F48B120754F9800D837E3 /* Stakeout α.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stakeout α.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58F48BB20754F9A00D837E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58F48BE20754F9A00D837E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58F48C020754F9A00D837E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +91,7 @@
 		F58F49662075505200D837E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F58F49692075517200D837E3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		F58F49702075627800D837E3 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		F82FF3EE69712F534D3AA3D2 /* Pods-StakeoutTests.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StakeoutTests.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-StakeoutTests/Pods-StakeoutTests.app store release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,18 @@
 				7ABA1A6BA6CE739A76EB58AE /* Pods-Stakeout.release.xcconfig */,
 				4A31AF23CCC7D564D95B8254 /* Pods-StakeoutTests.debug.xcconfig */,
 				E8FF1018916F3C119A623AFF /* Pods-StakeoutTests.release.xcconfig */,
+				68FD11AAD835450E91EE0848 /* Pods-Stakeout.local debug.xcconfig */,
+				BB9CC841D5C145784480EC17 /* Pods-Stakeout.app store debug.xcconfig */,
+				82EC4A1B07A715B66826B47E /* Pods-Stakeout.beta debug.xcconfig */,
+				9B84F61F48E884D4ABE82074 /* Pods-Stakeout.local release.xcconfig */,
+				02488AB8970F33902C5BB676 /* Pods-Stakeout.beta release.xcconfig */,
+				B8FB87B7190CF0724735B455 /* Pods-Stakeout.app store release.xcconfig */,
+				01A5E2B9816A866CA5C0CAC7 /* Pods-StakeoutTests.local debug.xcconfig */,
+				AA7005F22B7E01638D04B124 /* Pods-StakeoutTests.app store debug.xcconfig */,
+				A5045DB9FDC00E259FA319ED /* Pods-StakeoutTests.beta debug.xcconfig */,
+				D0E40873EA74855B4C1BC3D0 /* Pods-StakeoutTests.local release.xcconfig */,
+				E0A147E6CA148F483F0CFC28 /* Pods-StakeoutTests.beta release.xcconfig */,
+				F82FF3EE69712F534D3AA3D2 /* Pods-StakeoutTests.app store release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -138,7 +162,7 @@
 		F58F48B220754F9800D837E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F58F48B120754F9800D837E3 /* Stakeout.app */,
+				F58F48B120754F9800D837E3 /* Stakeout α.app */,
 				F58F48C520754F9A00D837E3 /* StakeoutTests.xctest */,
 			);
 			name = Products;
@@ -268,7 +292,7 @@
 			);
 			name = Stakeout;
 			productName = Stakeout;
-			productReference = F58F48B120754F9800D837E3 /* Stakeout.app */;
+			productReference = F58F48B120754F9800D837E3 /* Stakeout α.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F58F48C420754F9A00D837E3 /* StakeoutTests */ = {
@@ -496,7 +520,102 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F58F48CC20754F9A00D837E3 /* Debug */ = {
+		A3796BB12370B55100643716 /* App Store Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store Release";
+		};
+		A3796BB22370B55100643716 /* App Store Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FB87B7190CF0724735B455 /* Pods-Stakeout.app store release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7F3D3W6BZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "App Store Release";
+		};
+		A3796BB32370B55100643716 /* App Store Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82FF3EE69712F534D3AA3D2 /* Pods-StakeoutTests.app store release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StakeoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.StakeoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stakeout.app/Stakeout";
+			};
+			name = "App Store Release";
+		};
+		A3796BB42370B5C200643716 /* Beta Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,9 +673,50 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Beta Debug";
 		};
-		F58F48CD20754F9A00D837E3 /* Release */ = {
+		A3796BB52370B5C200643716 /* Beta Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EC4A1B07A715B66826B47E /* Pods-Stakeout.beta debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7F3D3W6BZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout.beta;
+				PRODUCT_NAME = "$(TARGET_NAME) β";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Beta Debug";
+		};
+		A3796BB62370B5C200643716 /* Beta Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5045DB9FDC00E259FA319ED /* Pods-StakeoutTests.beta debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StakeoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.StakeoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stakeout.app/Stakeout";
+			};
+			name = "Beta Debug";
+		};
+		A3796BB72370B5C900643716 /* Beta Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,11 +768,11 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Beta Release";
 		};
-		F58F48CF20754F9A00D837E3 /* Debug */ = {
+		A3796BB82370B5C900643716 /* Beta Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA6236F9508BFDBEE9017E08 /* Pods-Stakeout.debug.xcconfig */;
+			baseConfigurationReference = 02488AB8970F33902C5BB676 /* Pods-Stakeout.beta release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,36 +783,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout.beta;
+				PRODUCT_NAME = "$(TARGET_NAME) β";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Beta Release";
 		};
-		F58F48D020754F9A00D837E3 /* Release */ = {
+		A3796BB92370B5C900643716 /* Beta Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ABA1A6BA6CE739A76EB58AE /* Pods-Stakeout.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7F3D3W6BZ;
-				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F58F48D220754F9A00D837E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A31AF23CCC7D564D95B8254 /* Pods-StakeoutTests.debug.xcconfig */;
+			baseConfigurationReference = E0A147E6CA148F483F0CFC28 /* Pods-StakeoutTests.beta release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -669,11 +809,91 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stakeout.app/Stakeout";
 			};
-			name = Debug;
+			name = "Beta Release";
 		};
-		F58F48D320754F9A00D837E3 /* Release */ = {
+		A3796BBA2370B5EC00643716 /* App Store Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8FF1018916F3C119A623AFF /* Pods-StakeoutTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "App Store Debug";
+		};
+		A3796BBB2370B5EC00643716 /* App Store Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9CC841D5C145784480EC17 /* Pods-Stakeout.app store debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7F3D3W6BZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout.local;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "App Store Debug";
+		};
+		A3796BBC2370B5EC00643716 /* App Store Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7005F22B7E01638D04B124 /* Pods-StakeoutTests.app store debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -690,7 +910,203 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stakeout.app/Stakeout";
 			};
-			name = Release;
+			name = "App Store Debug";
+		};
+		F58F48CC20754F9A00D837E3 /* Local Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Local Debug";
+		};
+		F58F48CD20754F9A00D837E3 /* Local Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Local Release";
+		};
+		F58F48CF20754F9A00D837E3 /* Local Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FD11AAD835450E91EE0848 /* Pods-Stakeout.local debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7F3D3W6BZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout.local;
+				PRODUCT_NAME = "$(TARGET_NAME) α";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Local Debug";
+		};
+		F58F48D020754F9A00D837E3 /* Local Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B84F61F48E884D4ABE82074 /* Pods-Stakeout.local release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7F3D3W6BZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Stakeout/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.stakeout.local;
+				PRODUCT_NAME = "$(TARGET_NAME) α";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Local Release";
+		};
+		F58F48D220754F9A00D837E3 /* Local Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A5E2B9816A866CA5C0CAC7 /* Pods-StakeoutTests.local debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StakeoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.StakeoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stakeout.app/Stakeout";
+			};
+			name = "Local Debug";
+		};
+		F58F48D320754F9A00D837E3 /* Local Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E40873EA74855B4C1BC3D0 /* Pods-StakeoutTests.local release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StakeoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lukestringer.StakeoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stakeout.app/Stakeout";
+			};
+			name = "Local Release";
 		};
 /* End XCBuildConfiguration section */
 
@@ -698,29 +1114,41 @@
 		F58F48AC20754F9800D837E3 /* Build configuration list for PBXProject "Stakeout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F58F48CC20754F9A00D837E3 /* Debug */,
-				F58F48CD20754F9A00D837E3 /* Release */,
+				F58F48CC20754F9A00D837E3 /* Local Debug */,
+				A3796BBA2370B5EC00643716 /* App Store Debug */,
+				A3796BB42370B5C200643716 /* Beta Debug */,
+				F58F48CD20754F9A00D837E3 /* Local Release */,
+				A3796BB72370B5C900643716 /* Beta Release */,
+				A3796BB12370B55100643716 /* App Store Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Local Release";
 		};
 		F58F48CE20754F9A00D837E3 /* Build configuration list for PBXNativeTarget "Stakeout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F58F48CF20754F9A00D837E3 /* Debug */,
-				F58F48D020754F9A00D837E3 /* Release */,
+				F58F48CF20754F9A00D837E3 /* Local Debug */,
+				A3796BBB2370B5EC00643716 /* App Store Debug */,
+				A3796BB52370B5C200643716 /* Beta Debug */,
+				F58F48D020754F9A00D837E3 /* Local Release */,
+				A3796BB82370B5C900643716 /* Beta Release */,
+				A3796BB22370B55100643716 /* App Store Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Local Release";
 		};
 		F58F48D120754F9A00D837E3 /* Build configuration list for PBXNativeTarget "StakeoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F58F48D220754F9A00D837E3 /* Debug */,
-				F58F48D320754F9A00D837E3 /* Release */,
+				F58F48D220754F9A00D837E3 /* Local Debug */,
+				A3796BBC2370B5EC00643716 /* App Store Debug */,
+				A3796BB62370B5C200643716 /* Beta Debug */,
+				F58F48D320754F9A00D837E3 /* Local Release */,
+				A3796BB92370B5C900643716 /* Beta Release */,
+				A3796BB32370B55100643716 /* App Store Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Local Release";
 		};
 /* End XCConfigurationList section */
 	};
