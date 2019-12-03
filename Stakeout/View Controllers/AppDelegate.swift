@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		
+        print("Consumer Key: \(StakeoutKeys().twitterConsumerKey)")
+        print("Consumer Secret: \(StakeoutKeys().twitterConsumerSecret)")
+        
 		TWTRTwitter.sharedInstance().start(withConsumerKey: StakeoutKeys().twitterConsumerKey,
 									   consumerSecret: StakeoutKeys().twitterConsumerSecret)
 		

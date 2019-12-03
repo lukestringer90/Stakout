@@ -19,9 +19,11 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>twitterkit-XeHBWGbjAm59pdcAOkU2Dza17</string>
+				<string>twitterkit-iQGGtV7bxJga1qcwLpORiSE9K</string>
 			</array>
 		</dict>
 	</array>

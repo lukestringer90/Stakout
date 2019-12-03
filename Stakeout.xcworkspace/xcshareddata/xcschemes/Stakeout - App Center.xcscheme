@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F58F48B020754F9800D837E3"
-               BuildableName = "Stakeout.app"
+               BuildableName = "Stakeout &#x3b1;.app"
                BlueprintName = "Stakeout"
                ReferencedContainer = "container:Stakeout.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F58F48B020754F9800D837E3"
-            BuildableName = "Stakeout.app"
+            BuildableName = "Stakeout &#x3b1;.app"
             BlueprintName = "Stakeout"
             ReferencedContainer = "container:Stakeout.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F58F48B020754F9800D837E3"
-            BuildableName = "Stakeout.app"
+            BuildableName = "Stakeout &#x3b1;.app"
             BlueprintName = "Stakeout"
             ReferencedContainer = "container:Stakeout.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F58F48B020754F9800D837E3"
-            BuildableName = "Stakeout.app"
+            BuildableName = "Stakeout &#x3b1;.app"
             BlueprintName = "Stakeout"
             ReferencedContainer = "container:Stakeout.xcodeproj">
          </BuildableReference>
